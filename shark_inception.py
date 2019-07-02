@@ -62,24 +62,24 @@ class Shark_Inception(nn.Module):
         super(Shark_Inception, self).__init__()
         chan= 32
         
-        self.block1 = Block(chn, chan)
-        self.block2 = Block(chan, chan)
-        self.block3 = Block(chan, chan)
+        self.block1 = Inception_Block(chn, chan)
+        self.block2 = Inception_Block(chan, chan)
+        self.block3 = Inception_Block(chan, chan)
         self.pool = nn.MaxPool1d(2)
         
-        self.block4 = Block(chan, chan*2)
-        self.block5 = Block(chan*2, chan*2)
-        self.block6 = Block(chan*2, chan*2)
+        self.block4 = Inception_Block(chan, chan*2)
+        self.block5 = Inception_Block(chan*2, chan*2)
+        self.block6 = Inception_Block(chan*2, chan*2)
         self.pool2 = nn.MaxPool1d(2)
 
-        self.block7 = Block(chan*2, chan*4)
-        self.block8 = Block(chan*4, chan*4)
-        self.block9 = Block(chan*4, chan*4)        
+        self.block7 = Inception_Block(chan*2, chan*4)
+        self.block8 = Inception_Block(chan*4, chan*4)
+        self.block9 = Inception_Block(chan*4, chan*4)        
         self.pool3 = nn.MaxPool1d(2)
 
-        self.block10 = Block(chan*4, chan*8)
-        self.block11 = Block(chan*8, chan*8)
-        self.block12 = Block(chan*8, chan*8)    
+        self.block10 = Inception_Block(chan*4, chan*8)
+        self.block11 = Inception_Block(chan*8, chan*8)
+        self.block12 = Inception_Block(chan*8, chan*8)    
         
         self.fc = dense(1536)
         
