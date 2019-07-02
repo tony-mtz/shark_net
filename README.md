@@ -4,6 +4,7 @@
 
 # Models
 ## Shark_VGG:<br>
+
 <img src="https://github.com/tony-mtz/shark_net/blob/master/images/cnn_vgg.png" alt="Shark_VGG" width="70%" height="70%">
 
 ## Shark_Inception_Module:<br>
