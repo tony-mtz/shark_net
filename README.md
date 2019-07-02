@@ -3,11 +3,11 @@
 
 
 # Models
-An input image:<br>
-![shark_vgg](https://github.com/tony-mtz/shark_net/blob/master/images/cnn_vgg.png)
+## Shark_VGG:<br>
+![shark_vgg](https://github.com/tony-mtz/shark_net/blob/master/images/cnn_vgg.png){:height="75%" width="75%"}
 <br>
-The resulting class activation map:<br>
-![bee_cam](https://github.com/tony-mtz/shark_net/blob/master/images/incp_mod.png)
+## Shark_Inception_Module:<br>
+![shark_incp](https://github.com/tony-mtz/shark_net/blob/master/images/incp_mod.png){:height="50%" width="50%"}
 <br>
-Both images together:<br>
-![overlay](https://github.com/tony-mtz/shark_net/blob/master/images/incp_model.png)
+## Shark_Inception:<br>
+![overlay](https://github.com/tony-mtz/shark_net/blob/master/images/incp_model.png){:height="50%" width="50%"}
