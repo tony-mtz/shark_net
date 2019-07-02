@@ -4,7 +4,8 @@
 
 # Models
 ## Shark_VGG:<br>
-![shark_vgg | 804x312,50%](https://github.com/tony-mtz/shark_net/blob/master/images/cnn_vgg.png)
+<img src="https://github.com/tony-mtz/shark_net/blob/master/images/cnn_vgg.png" alt="Shark VGG" width="40%" height="40%">
+
 <br>
 ## Shark_Inception_Module:<br>
 ![shark_incp](https://github.com/tony-mtz/shark_net/blob/master/images/incp_mod.png){:height="25%" width="25%"}
